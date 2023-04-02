@@ -23,7 +23,7 @@ Click [http://HostIP:1985/console/](http://HostIP::1985/console/)You can see the
 
 * Click the Settings option in the OBS software and select the push settings
 
-Select Custom as the service mode [rtmp://HostIP/live/live server](rtmp://HostIP/live/live server), and stream key: [stream](stream)
+Select Custom as the service mode rtmp://HostIP/live/live server, and stream key: [stream](stream)
 
 * Then click the Start Streaming button to push the stream
 
