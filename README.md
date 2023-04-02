@@ -37,10 +37,14 @@ On the [SRS console page](http://HostIP:1985/console/), you will see that the se
 
 Pull the source code of this repository.
 
+```
+git@github.com:14172945/srsweb-docker.git
+```
+
 Modify the HTTP address on line 15 in inedx.
 
 For example:[http://HostIP:8080/live/live/stream.flv](http://HostIP:8080/live/live/stream.flv)
 
-Upload the index .html file to your web server, and you can deploy it using Nginx and others.
+Upload the index file to your web server, and you can deploy it using Nginx and others.
 
 Finally, visit your address to view it.
