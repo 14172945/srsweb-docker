@@ -10,7 +10,7 @@ docker pull ossrs/srs:v6
 
 Then run it inside the docker container
 ```
-docker run -p 1935:1935 -p 1985:1985 -p 8080:8080 ossrs/srs:v6
+docker run -p 1935:1935 -p 1985:1985 -p 8080:8080 --name srs -d ossrs/srs:v6
 ```
 
 * Among them, port 1935 is the RTMP service port, 1985 is the console port, and 8080 is the default port.
